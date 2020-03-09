@@ -1,7 +1,16 @@
-node_modules
-.next
-.now
+# dependencies
+/node_modules
 
+# production
+/out
+/build
+/.next
+/.next-export
+.now
 dist
 next.config.*
 now.json
+
+# misc
+.DS_Store
+npm-debug.log*
